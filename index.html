@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AT Digital Internship - Front-end Development Task</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/img/Logo.png" alt="atdigital logo" />
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">CAREERS</a></li>
+            </ul>
+        </div>
+        <button class="hamburger" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#" onclick="toggleMobileMenu()">SERVICES</a></li>
+            <li><a href="#" onclick="toggleMobileMenu()">ABOUT US</a></li>
+            <li><a href="#" onclick="toggleMobileMenu()">CONTACT US</a></li>
+            <li><a href="#" onclick="toggleMobileMenu()">CAREERS</a></li>
+        </ul>
+    </div>
+
+    <div class="hero-section">
+        <img src="/img/bg.jpg" alt="Hero Image" class="hero-image-mobile">
+        <div class="hero-content">
+            <h1 class="hero-text">
+                We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
+            </h1>
+            <button class="hero-button">GET FREE CONSULTATION</button>
+        </div>
+    </div>
+
+    <section class="service-section">
+        <div class="service-container">
+            <div class="service-image-container">
+                <img
+                    src="/img/image.png"
+                    alt="Web & Mobile App Development"
+                    class="service-image"
+                />
+            </div>
+            <div class="service-text-content">
+                <h2 class="service-heading">Web & Mobile App Development</h2>
+                <p class="service-description">
+                    Your web and mobile Apps are pieces of the puzzle to grow your
+                    business. We use frameworks which tailor content and engagement
+                    methods to respond to different intents shown by your potential
+                    customers who interact with your business online.
+                </p>
+                <button class="service-button">LEARN MORE</button>
+            </div>
+        </div>
+
+        <div class="service-container reversed">
+            <div class="service-text-content">
+                <h2 class="service-heading">Digital Strategy Consulting</h2>
+                <p class="service-description">
+                    Your digital strategy should complement the overall marketing
+                    strategy of the company. In online marketing, each component will
+                    never work in isolation and every business needs a different mix.
+                    We provide a clear concept and strategic overview to find the most
+                    efficient model for your business.
+                </p>
+                <button class="service-button">LEARN MORE</button>
+            </div>
+            <div class="service-image-container">
+                <img
+                    src="/img/image2.png"
+                    alt="Digital Strategy Consulting"
+                    class="service-image"
+                />
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="faq-heading">Frequently asked questions</h2>
+            <div class="faq-item active">
+                <div class="faq-question">
+                    <p>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</p>
+                    <span class="faq-toggle">-</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum
+                        ultrices nulla faucibus odio est sed aliquam. Sapien morbi risus sagittis tortor integer.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <p>Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</p>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum
+                        ultrices nulla faucibus odio est sed aliquam. Sapien morbi risus sagittis tortor integer.
+                    </p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <p>Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</p>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum
+                        ultrices nulla faucibus odio est sed aliquam. Sapien morbi risus sagittis tortor integer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="/img/Logo.png" alt="atdigital logo" />
+                </div>
+                <p class="footer-tagline">
+                    Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Our Technologies</h4>
+                    <ul>
+                        <li><a href="#">ReactJS</a></li>
+                        <li><a href="#">Gatsby</a></li>
+                        <li><a href="#">NextJS</a></li>
+                        <li><a href="#">NodeJS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Social Media Marketing</a></li>
+                        <li><a href="#">Web & Mobile App Development</a></li>
+                        <li><a href="#">Data & Analytics</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <hr>
+            <a href="#">Privacy Policy</a>
+            <span class="footer-separator">|</span>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const navbar = document.querySelector('.navbar');
+            const hamburger = document.querySelector('.hamburger');
+
+            mobileMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+
+            if (mobileMenu.classList.contains('active')) {
+                const navbarHeight = navbar.offsetHeight;
+                mobileMenu.style.top = navbarHeight + 'px';
+                mobileMenu.style.height = `calc(100vh - ${navbarHeight}px)`;
+            }
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const hamburger = document.querySelector('.hamburger');
+            
+            if (!mobileMenu.contains(event.target) && !hamburger.contains(event.target)) {
+                mobileMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+        });
+
+        // FAQ functionality
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+
+                faqItem.classList.toggle('active');
+
+                const toggleSpan = question.querySelector('.faq-toggle');
+                if (faqItem.classList.contains('active')) {
+                    toggleSpan.textContent = '-';
+                } else {
+                    toggleSpan.textContent = '+';
+                }
+            });
+        });
+
+        window.addEventListener('resize', function() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const hamburger = document.querySelector('.hamburger');
+            const navbar = document.querySelector('.navbar');
+
+            if (window.innerWidth > 768) {
+                mobileMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            }
+
+            if (mobileMenu.classList.contains('active')) {
+                const navbarHeight = navbar.offsetHeight;
+                mobileMenu.style.top = navbarHeight + 'px';
+                mobileMenu.style.height = `calc(100vh - ${navbarHeight}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
