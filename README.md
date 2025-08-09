@@ -1,6 +1,6 @@
 # AT Digital - Responsive Website
 
-A responsive business website built with HTML5, CSS3, and JavaScript.
+A responsive website built with HTML5, CSS3, and JavaScript.
 
 ## 🌐 Live Demo
 
